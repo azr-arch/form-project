@@ -1,0 +1,33 @@
+html,
+bdoy {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  padding-top: 4em;
+}
+
+input {
+  padding: 0.5em 0.8em;
+}
+form {
+  margin-inline: auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+button {
+  align-self: flex-start;
+}
+select {
+  width: 40%;
+}

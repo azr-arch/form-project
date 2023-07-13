@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- use version 0.20.0 -->
+    <!-- use version 0.20.0 -->
+    <script
+      lang="javascript"
+      src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"
+    ></script>
+  </head>
+  <body>
+    <form action="#">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Name" id="name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email" id="email" />
+      </div>
+
+      <!-- FOR MANUALLY CHOOSING BAR DATA EXCEL SHEET -->
+      <input type="file" name="" id="file-input" />
+
+      <div>
+        <label for="region">Select Region</label>
+        <select name="region" id="region">
+          <option value="none">None</option>
+        </select>
+      </div>
+      <div>
+        <label for="bar">Select Bar</label>
+        <select name="bar" id="bar">
+          <option value="none">None</option>
+        </select>
+      </div>
+
+      <button>submit form</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
